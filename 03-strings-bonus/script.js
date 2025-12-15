@@ -31,4 +31,10 @@ const upperCaseHello = hello.toUpperCase();
 console.log(upperCaseHello); // Output: "HELLO"
 
 /////////////////////////////////////////////////////
-console.log(`shoppingList è un refuso? 😅`);
+//BONUS free style
+
+const lineSeparator = "\n-\t";
+const shoppingListAsLines =
+  `${lineSeparator} ` + shoppingList.replaceAll(",", lineSeparator);
+console.log("Lista della spesa:" + shoppingListAsLines);
+/////////////////////////////////////////////////////
