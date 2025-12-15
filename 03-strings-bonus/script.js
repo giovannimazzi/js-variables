@@ -32,7 +32,6 @@ console.log(upperCaseHello); // Output: "HELLO"
 
 /////////////////////////////////////////////////////
 //BONUS free style
-
 const lineSeparator = "\n-\t";
 const shoppingListAsLines =
   `${lineSeparator} ` + shoppingList.replaceAll(",", lineSeparator);
